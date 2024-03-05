@@ -1,5 +1,4 @@
-const { createStore } = require('redux');
-
+import { createStore } from 'redux';
 function counterReducer(state = { counter: 0 }, action) {
   if (action.type === 'increment') {
     return {
